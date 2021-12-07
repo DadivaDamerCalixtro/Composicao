@@ -11,11 +11,20 @@ package composicao;
  */
 public class Direcao {
     private String Cor;
-    
-    public String getCor(){
+
+    public String getCor() {
         return Cor;
-}
-    public void setCor (String Cor){
-        this.Cor=Cor;
-}
+    }
+
+    public void setCor(String Cor) {
+        this.Cor = Cor;
+    }
+    
+    public Direcao(){
+        Cor = "Amarelo";
+    }
+    public Direcao (String Cor){
+        Cor = Cor;
+    }
+
 }
